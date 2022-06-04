@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>HeyArt</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    </head>
+    <body>
+        <h1>HeyArt</h1>
+        <h2>이미지 업로더</h2>
+        <form enctype="multipart/form-data" action"/" method="POST">
+            <p>나만의 공간 사진을 올려주세요</p>
+            <input type="file" name="image" accept="image/*" />
+            <button type="submit" id="upload-button">업로드</button>
+        </form>
+        <div id="image-preview"></div>
+        
+    </body>
+</html>
